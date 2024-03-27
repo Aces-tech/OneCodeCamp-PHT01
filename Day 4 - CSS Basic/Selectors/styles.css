@@ -1,0 +1,52 @@
+/* This is how you write a comment */
+
+/* Element Selector */
+
+p {
+    color: brown;
+}
+
+p {
+    color: red;
+}
+
+/* Class selector */
+.class-example {
+    color: fuchsia;
+}
+
+/* ID selector */
+#id-example {
+    color: tomato;
+}
+
+/* Attribute selector */
+/* Targetting an anchor tag with specific href value */
+
+a[href] {
+    color: green;
+}
+
+a[href="http://www.google.com"] {
+    color: pink;
+}
+
+/* Grouping selector */
+
+h1,h2,h3 {
+    color: lightblue;
+    font-size: 25px;
+    background-color: cadetblue;
+}
+
+.heading1, #heading2, h3 {
+    background-color: #fe4f02;
+    color: #04859c;
+    
+}
+
+/* Psuedo-Class Selector */
+
+.heading1:hover {
+    background-color: #04859c;
+}
